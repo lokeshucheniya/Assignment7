@@ -1,11 +1,9 @@
-//Class of Account 
+
 public class Account {
-	//Instance members
+
 	private int accountNumber = 0;
 	private String name;
 	private double Balance;
-	
-	//class member
 	private static int lastAccountNumber = 0;
 	  
 	//Constructors to initialize unique account number, name and initialBalance 
@@ -55,7 +53,6 @@ public class Account {
 		return result;
 	}
 	
-	//tostring override
 	@Override
 	public String toString() {
 		return "Account [id = " +accountNumber+ " name=" + name + ", initialBalance=" + Balance + "]";
