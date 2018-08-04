@@ -1,4 +1,3 @@
-//Class to test Account functionalites
 public class TestAccount {
 
 	public static void main(String[] args) {
